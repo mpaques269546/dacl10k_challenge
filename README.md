@@ -1,5 +1,5 @@
 # Vision Transformer Adapter for the semantic segmentation of structural defects bridge inspection
-Dacl10k challenge: 
+Repository for the Dacl10k challenge. Try the notebook for model inference. 
 
 
 Model weights could be retrieved from https://drive.google.com/drive/folders/120MExaJwfFyd4-SA6ShC4ufsXeCVbHcl?usp=drive_link. To be put in ./weights/.
