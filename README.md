@@ -19,7 +19,7 @@ img_path = os.path.join( images_path , img_name )
 img = Image.open(img_path) #.resize((512,512))
 make_prediction(segmenter, img)
 ```
-<img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo.jpg" width="500" height="500">
+<img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo.png" width="500" height="500">
 
 
 ## Model performance
