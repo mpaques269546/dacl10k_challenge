@@ -30,11 +30,11 @@ images_list = os.listdir(images_path)
 i = random.randint(0, len(images_list)-1)
 img_name = images_list[i]
 img_path = os.path.join( images_path , img_name )
-img = Image.open(img_path) #.resize((512,512))
+img = Image.open(img_path)
 make_prediction(segmenter, img)
 ```
 <img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo.png" width="500" height="200">
-<img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo2.png" width="500" height="200">
+<img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo2.png" width="500" height="500">
 
 ## Model performance
 The proposed model obtained the following results on Dacl10k testdev dataset:
