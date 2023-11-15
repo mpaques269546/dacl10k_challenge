@@ -7,6 +7,21 @@ pip install requirements.txt
 ```
 Model weights could be retrieved from https://drive.google.com/drive/folders/120MExaJwfFyd4-SA6ShC4ufsXeCVbHcl?usp=sharing. To be put in ./weights/.
 
+## Inference
+To display predictions:
+```python
+from model import make_prediction
+images_path = "data/testdev/"
+images_list = os.listdir(images_path)
+i = random.randint(0, len(images_list)-1)
+img_name = images_list[i]
+img_path = os.path.join( images_path , img_name )
+img = Image.open(img_path) #.resize((512,512))
+make_prediction(segmenter, img)
+```
+<img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo.jpg" width="500" height="500">
+
+
 ## Model performance
 The proposed model obtained the following results on Dacl10k testdev dataset:
 Class Name  | mIoU (%)  |
