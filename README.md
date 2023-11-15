@@ -17,7 +17,7 @@ Try our model using the given notebook.
 
 ## Installation
 ```python
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Model weights could be retrieved from https://drive.google.com/drive/folders/120MExaJwfFyd4-SA6ShC4ufsXeCVbHcl?usp=sharing. To be put in ./weights/.
 
