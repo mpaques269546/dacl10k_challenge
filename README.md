@@ -5,6 +5,7 @@ Repository for the Dacl10k challenge. Try the notebook for model inference.
 Model weights could be retrieved from https://drive.google.com/drive/folders/120MExaJwfFyd4-SA6ShC4ufsXeCVbHcl?usp=sharing. To be put in ./weights/.
 
 The proposed model obtained the following results on Dacl10k testdev dataset:
+```python
 Crack	0.32
 ACrack	0.42
 Efflorescence	0.46
@@ -25,4 +26,6 @@ Drainage	0.70
 PEquipment	0.82
 JTape	0.45
 mIoU	0.47
+```
+
 
