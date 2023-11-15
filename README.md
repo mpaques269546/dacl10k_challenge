@@ -34,7 +34,7 @@ img = Image.open(img_path) #.resize((512,512))
 make_prediction(segmenter, img)
 ```
 <img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo.png" width="500" height="200">
-
+<img src="https://github.com/mpaques269546/dacl10k_challenge/blob/main/pics/dacl_demo2.png" width="500" height="200">
 
 ## Model performance
 The proposed model obtained the following results on Dacl10k testdev dataset:
