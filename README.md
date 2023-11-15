@@ -1,4 +1,4 @@
-# Vision Transformer Adapter for the semantic segmentation of structural defects bridge inspection
+# Vision Transformer Adapter for the semantic segmentation of structural defects in bridge inspections
 
 ## Dacl10k challenge
 This repository was made to attend to the Dacl10k challenge hosted on "https://eval.ai/web/challenges/challenge-page/2130/overview". 
