@@ -1,5 +1,17 @@
 # Vision Transformer Adapter for the semantic segmentation of structural defects bridge inspection
-Repository for the Dacl10k challenge. Try the notebook for model inference. 
+
+## Dacl10k challenge
+This repository was made to attend to the Dacl10k challenge hosted on "https://eval.ai/web/challenges/challenge-page/2130/overview". 
+Dack10k is a multi-class multi-label segmentation dataset of common infrastructure defects with 19 classes, 6.935 train images, 975 validation and 1.012 test images. For further details, please see the following paper: @article{Flotzinger2023dacl10kBF,
+  title={dacl10k: Benchmark for Semantic Bridge Damage Segmentation},
+  author={Johannes Flotzinger and Philipp Jonas R{\"o}sch and Thomas Braml},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2309.00460},
+  url={https://api.semanticscholar.org/CorpusID:261494056}
+}
+
+Try our model using the given notebook.
 
 ## Installation
 ```python
